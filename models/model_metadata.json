@@ -1,0 +1,19 @@
+{
+  "project": "E-Commerce Shipment Delivery Prediction",
+  "target": "Reached.on.Time_Y.N",
+  "dataset": "data/raw/Train.csv",
+  "task": "Binary Classification",
+  "features": [
+    "Warehouse_block",
+    "Mode_of_Shipment",
+    "Customer_care_calls",
+    "Customer_rating",
+    "Cost_of_the_Product",
+    "Prior_purchases",
+    "Product_importance",
+    "Gender",
+    "Discount_offered",
+    "Weight_in_gms"
+  ],
+  "id_column_removed": "ID"
+}

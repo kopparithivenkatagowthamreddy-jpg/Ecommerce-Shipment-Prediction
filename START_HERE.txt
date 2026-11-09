@@ -1,0 +1,21 @@
+E-COMMERCE SHIPMENT PREDICTION - START HERE
+
+1. Install notebook dependencies:
+   pip install -r requirements-notebook.txt
+
+2. Open and run:
+   notebooks/ecommerce_shipment_analysis.ipynb
+
+3. The dataset is located at:
+   data/raw/Train.csv
+
+4. Start the API:
+   run_api.bat
+   OR
+   uvicorn api.main:app --reload
+
+5. Open API docs:
+   http://127.0.0.1:8000/docs
+
+6. Run tests:
+   run_tests.bat
